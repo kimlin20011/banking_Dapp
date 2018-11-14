@@ -43,26 +43,26 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="160" />
-          <entry key="JavaScript" value="540" />
-          <entry key="Solidity file" value="398" />
+          <entry key="JavaScript" value="628" />
+          <entry key="Solidity file" value="679" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="160" />
-          <entry key="js" value="540" />
-          <entry key="sol" value="398" />
+          <entry key="js" value="628" />
+          <entry key="sol" value="679" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="376" lean-forward="true" selection-start-line="376" selection-end-line="376" />
+            <state relative-caret-position="355">
+              <caret line="384" column="51" selection-start-line="384" selection-start-column="51" selection-end-line="384" selection-end-column="51" />
               <folding>
                 <element signature="n#style#0;n#b#0;n#!!top" expanded="true" />
               </folding>
@@ -85,13 +85,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contract/Bank.sol">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2184">
-              <caret line="104" column="66" selection-start-line="104" selection-start-column="66" selection-end-line="104" selection-end-column="66" />
+            <state relative-caret-position="294">
+              <caret line="26" column="25" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contract/Bank.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="63">
@@ -123,11 +123,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/contract/Bank.sol" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/bank.js" />
-        <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/contract/Bank.js" />
+        <option value="$PROJECT_DIR$/contract/Bank.sol" />
+        <option value="$PROJECT_DIR$/js/index.js" />
       </list>
     </option>
   </component>
@@ -137,7 +137,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="width" value="1934" />
     <option name="height" value="1008" />
@@ -203,12 +203,12 @@
       <workItem from="1541989657542" duration="22258000" />
       <workItem from="1542029143473" duration="4001000" />
       <workItem from="1542072659187" duration="6907000" />
-      <workItem from="1542160998233" duration="1283000" />
+      <workItem from="1542160998233" duration="3059000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35192000" />
+    <option name="totallyTimeSpent" value="36968000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
@@ -264,10 +264,17 @@
         <state relative-caret-position="-1260" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contract/Bank.sol">
+    <entry file="file://$PROJECT_DIR$/js/bank.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2184">
-          <caret line="104" column="66" selection-start-line="104" selection-start-column="66" selection-end-line="104" selection-end-column="66" />
+        <state relative-caret-position="42">
+          <caret line="2" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contract/Bank.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -281,27 +288,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/contract/Bank.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="376" lean-forward="true" selection-start-line="376" selection-end-line="376" />
+        <state relative-caret-position="355">
+          <caret line="384" column="51" selection-start-line="384" selection-start-column="51" selection-end-line="384" selection-end-column="51" />
           <folding>
             <element signature="n#style#0;n#b#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/bank.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contract/Bank.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>

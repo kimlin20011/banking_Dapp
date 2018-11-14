@@ -1,2 +1,6 @@
-# banking_Dapp
-the homework project of FinTech class
+﻿# banking_Dapp
+----
+新增3個function主要是定存功能
+** 購買定存功能buyCertificateDeposit：主要爲使用者必須輸入本金與期數資訊，智能合約會先檢查使用者是否已經購買過定存合約，若購買過則會終止交易，購買過則會以mapping去映射消費者購買資料，並送出交易  
+** 提前解約功能CD_AdvancedTermination：合約會先檢查使用者是否已經購買過定存，若無購買則會終止交易，使用者需要輸入解約時的期數，智能合約會返回相對金額  
+** 合約到期功能CD_Expires：使用者按下合約到期時，會檢查使用者是否已經購買過定存，若已購買則返回所有金額，無購買則發出錯誤訊息  

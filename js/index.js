@@ -321,7 +321,7 @@ buyCDButton.on("click", async function() {
         })
         .on("receipt", function(receipt) {
             log(receipt.events.CertificateDepositEvent.returnValues, `購買定存成功，購買金額:${certificateDepositValue.val()}ETH，購買期數:${certificateDepositPeriod.val()}期`);
-
+            alert(`購買定存成功，購買金額:${certificateDepositValue.val()}ETH，購買期數:${certificateDepositPeriod.val()}期，交易hash值：${receipt.events.CertificateDepositEvent.transactionHash}`);
             // 觸發更新帳戶資料
             update.trigger("click");
 
@@ -330,6 +330,7 @@ buyCDButton.on("click", async function() {
         })
         .on("error", function(error) {
             log(`${error.toString()}您已購買過定存`);
+            alert(`${error.toString()}您已購買過定存`);
             // 更新介面
             doneTransactionStatus();
         });
@@ -371,6 +372,7 @@ CD_Expires_button.on("click", async function() {
         })
         .on("receipt", function(receipt) {
             log(receipt.events.CD_ExpiresEvent.returnValues, `提取定存金額成功`);
+            alert(`提取定存金額成功，提取金額${receipt.events.CD_ExpiresEvent.returnValues.withdrowValue}，謝謝您^^`);
 
             // 觸發更新帳戶資料
             update.trigger("click");
@@ -380,6 +382,8 @@ CD_Expires_button.on("click", async function() {
         })
         .on("error", function(error) {
             log(`您尚未購買定存，請再次購買${error.toString()}`);
+            alert(`您尚未購買定存，請再次購買${error.toString()}，謝謝您^^`);
+
             // 更新介面
             doneTransactionStatus();
         });
@@ -410,6 +414,7 @@ advancedTerminationButton.on("click", async function() {
         })
         .on("receipt", function(receipt) {
             log(receipt.events.AdvancedTerminationEvent.returnValues, `提前解約成功`);
+            alert(`提前解約成功，解約時期數${advancedTerminationPeriod.val()}，提取金額${receipt.events.AdvancedTerminationEvent.returnValues.withdrowValue}`);
 
             // 觸發更新帳戶資料
             update.trigger("click");
@@ -419,6 +424,7 @@ advancedTerminationButton.on("click", async function() {
         })
         .on("error", function(error) {
             log(`${error.toString()}`);
+            alert(`${error.toString()}您尚未購買合約`);
             // 更新介面
             doneTransactionStatus();
         });
