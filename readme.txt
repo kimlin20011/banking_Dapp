@@ -1,5 +1,6 @@
 ﻿# banking_Dapp
 ## 2018FinTech作業
+
 ----
 新增3個function主要是定存功能  
 1. 購買定存功能buyCertificateDeposit：主要爲使用者必須輸入本金與期數資訊，智能合約會先檢查使用者是否已經購買過定存合約，若購買過則會終止交易，購買過則會以mapping去映射消費者購買資料，並送出交易  
